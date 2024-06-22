@@ -30,6 +30,7 @@ nav{
     border-radius: 20px;
     border: solid 1px;
     top: 0.5vh;
+    width: 100vw;
 }
 nav ul li{
     display: inline-block;
@@ -59,6 +60,9 @@ nav ul li a:hover::after{
     margin-top: 20%;
     font-size: 30px;
     line-height: 1.2;
+}
+.header-text i{
+    font-size: 50px;
 }
 .header-text h1{
     font-size: 60px;
@@ -138,10 +142,13 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
     line-height: 1.15;
 }
+.skills-list div p{
+    font-size: 15px;
+}
 .skills-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -243,4 +250,110 @@ nav ul li a:hover::after{
     font-size: 25px;
     margin: 10px;
     margin-top: 100px;
+}
+
+/* MAKING WEBSITE RESPONSIVE */
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    nav .fa-solid{
+        display: block;
+        font-size: 35px;
+    }
+    .header-text{
+        margin-top: 15vh;
+        font-size: 20px;
+    }
+    .header-text i{
+        font-size: 25px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    #element{
+        font-size: 30px;
+    }
+    nav ul{
+        background: linear-gradient(#ff004f,#1D1D1D);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 55vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+        border-radius: 20px;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    #home{
+        height: 110vw;
+    }
+    #about{
+        padding: 10vw;
+        position: relative;
+        height: 230vw;
+    }
+    #about h1{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about video{
+        position: absolute;
+        width: 60vw;
+        left: 20vw;
+        border: solid 10px;
+    }
+    #about .acol2{
+        position: absolute;
+        top: 95vw;
+        left: 0;
+        padding: 8vw;
+    }
+    #about p {
+        text-align: center;
+        font-size: 13px;
+    }
+    #about h3{
+        font-size: 17px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #skills h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #skills .skills-list{
+        margin-top: 20px;
+    }
+    #projects h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #projects .projects-list{
+        margin-top: 20px;
+    }
+    #contact .abc{
+        background: #000;
+        border: solid 10px #000;
+        border-radius: 20px;
+        top: 50vw;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #contact{
+        height: 120vw;
+    }
 }

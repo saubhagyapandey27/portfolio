@@ -15,18 +15,21 @@
     <div id="home">
         <div class="container">
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About Me</a></li>
+                    <li><a href="#skills" onclick="closemenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-compass" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Welcome! Dear Visitor,</p>
-                <h1>My Name is <br><span>Saubhagya Pandey</span><br>And I am a Passionate <br></h1>
+                <h1>My Name is <br><span>Saubhagya Pandey</span><br>And I am an Aspiring <br></h1>
                 <span id="element"></span>
+                <i>😊</i>
             </div>
         </div>
     </div>
@@ -38,11 +41,11 @@
                 </div>
                 <div class="acol2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am a Machine Learning Engineer, Data Scientist, and Project Manager with 4 years of experience specializing in Natural Language Processing (NLP) and Computer Vision (CV) projects. I have a proven track record of developing innovative solutions and leading successful projects across various industries. Passionate about leveraging data to uncover insights and drive strategic decisions, I bring a unique blend of technical expertise and managerial skills to every endeavor. My goal is to continuously push the boundaries of what’s possible with AI and make a significant impact in the field.</p>
-                    <h3 class="abt">Educational Qualifications</h3>
-                    <p>Graduated from IIT Kanpur in 2027 <br>MBA from Harvard Business School in 2030</p>
+                    <p>I am Aspiring to earn high level specialized knowlegde in Natural Language Processing (NLP) and Computer Vision (CV). Being a fast learner and a curious person, I have a proven track record of learning valuable skills within due course of time. I am passionate about leveraging data to uncover insights and drive strategic decisions. This also justifies my interest in the field of Business Analysis and Product Management. My goal is to continuously push the boundaries of what’s possible with AI and make a significant impact in the field.</p>
+                    <h3 class="abt">Qualifications and Achievements</h3>
+                    <p>B.Tech. BSBE from IIT Kanpur (2023-2027) <br>AIR 8544 CRL in JEE Adv. and 99%ile in JEE Mains<br>98% and 95% in 10+2 (CBSE) Respectively</p>
                     <h3 class="abt">Work Experience</h3>
-                    <p>One Year at Perplexity AI <br>Three Years at Google Gemini</p>
+                    <p>Secretary in Brain & Cognitive Society IIT Kanpur. <br>Secretary in Product Club IIT Kanpur.</p>
                 </div>
             </div>
         </div>
@@ -53,15 +56,21 @@
             <div class="skills-list">
                 <div>
                     <i class="fa-solid fa-arrow-down-a-z"></i>
-                    <h2>NLP and LLMs</h2>
-                    <p>Creating systems that understand and generate human language for various applications.</p>
+                    <h2>NLP</h2>
+                    <p>Involved in Natural Language Processing Learning Process.</p>
                     <a href="https://developer.kore.ai/docs/bots/chatbot-overview/nlp-guide/" target="_blank">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-camera"></i>
                     <h2>Computer Vision</h2>
-                    <p>Designing and implementing solutions for image and video analysis.</p>
+                    <p>Implementing solutions for image and video analysis.</p>
                     <a href="https://keras.io/examples/vision/" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars-progress"></i>
+                    <h2>Product Management</h2>
+                    <p>Learning Strategic development of Products for delivering the best UX.</p>
+                    <a href="https://www.geeksforgeeks.org/product-management/" target="_blank">Learn More</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-database"></i>
@@ -70,35 +79,35 @@
                     <a href="https://dataanalysispython.readthedocs.io/en/latest/" target="_blank">Learn More</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Python and R</h2>
-                    <p>Expert in Python and R for data analysis, machine learning, and automation.</p>
-                    <a href="https://docs.python.org/3/" target="_blank">Learn More</a>
-                </div>
-                <div>
                     <i class="fa-solid fa-business-time"></i>
                     <h2>Business Analysis</h2>
                     <p>Analyzing business needs to develop strategic solutions and improve performance.</p>
                     <a href="https://tutorialspoint.com/business_analysis/index.htm" target="_blank">Learn More</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-bars-progress"></i>
-                    <h2>Project Management</h2>
-                    <p>Leading projects from inception to completion, ensuring timely and successful delivery.</p>
-                    <a href="https://www.simplilearn.com/tutorials/project-management-tutorial" target="_blank">Learn More</a>
-                </div>
-                <div>
                     <i class="fa-solid fa-person-chalkboard"></i>
-                    <h2>Presentation</h2>
+                    <h2>Presentation Skills</h2>
                     <p>Crafting and delivering compelling presentations to communicate complex ideas clearly.</p>
                     <a href="https://slidesgo.com/slidesgo-school/powerpoint-tutorials" target="_blank">Learn More</a>
                 </div>
                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python</h2>
+                    <p>Intermediate level Knowledgde in Python for data analysis, machine learning, and automation.</p>
+                    <a href="https://docs.python.org/3/" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML | CSS </h2>
+                    <p>Basic level Knowledgde in HTML & CSS for Web Development (Basic Frontend).</p>
+                    <a href="https://forum.freecodecamp.org/t/documentation-of-html-and-css/551354" target="_blank">Learn More</a>
+                </div>
+                <!-- <div>
                     <i class="fa-solid fa-comment"></i>
                     <h2>Prompt Engineering</h2>
                     <p>Designing and optimizing prompts to enhance AI model performance and accuracy</p>
                     <a href="https://www.tutorialspoint.com/prompt_engineering/index.htm" target="_blank">Learn More</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -107,27 +116,27 @@
             <h1 class="sub-title">My Projects</h1>
             <div class="projects-list">
                 <div class="box">
-                    <img src="images/1.jpg" alt="">
+                    <img src="images/1.jpeg" alt="">
                     <div class="layer">
-                        <h2>Smart Text Summarizer</h3>
-                        <p><b>Description:</b> Developed an NLP model to automatically summarize lengthy documents into concise summaries. <br><br><b>Technologies:</b> Python, Hugging Face Transformers, NLTK, Flask.</p>
-                        <a href="https://github.com/saubhagyapandey27" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h2>Movie Recommendation System</h3>
+                        <p><b>Description:</b> Developed an NLP model to Recommend most similar movies to user whenever user enters a movie name . <br><br><b>Technologies:</b> Python, NLTK, sklearn</p>
+                        <a href="https://github.com/saubhagyapandey27/Movie_Recommender" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="images/2.jpg" alt="">
+                    <img src="images/2.jpeg" alt="">
                     <div class="layer">
-                        <h2>Facial Recognition System</h3>
-                        <p><b>Description:</b> Built a computer vision application for real-time facial recognition and authentication. <br><br><b>Technologies:</b>Python, OpenCV, TensorFlow, Keras.</p>
-                        <a href="https://github.com/saubhagyapandey27" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h2>PDF Search</h3>
+                        <p><b>Description:</b> Built a NLP Model to extract top few matching paragraphs from the input PDF based on the Query entered by the user. <br><br><b>Technologies:</b> Python, NLTK, PyPDF2.</p>
+                        <a href="https://github.com/saubhagyapandey27/FunProjectsML/tree/master/PDF_Search" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="images/3.jpg" alt="">
+                    <img src="images/3.jpeg" alt="">
                     <div class="layer">
-                        <h2>Sales Data Analysis Dashboard</h3>
-                        <p><b>Description:</b> Created an interactive dashboard to analyze and visualize sales data for strategic decision-making. <br><br><b>Technologies:</b> Python, Pandas, Plotly, Dash.</p>
-                        <a href="https://github.com/saubhagyapandey27" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h2>Groww : Auto-Debits<br>PRODUCT DECK</h3>
+                        <p><b>Description:</b> Created a product deck to propose integration of a new feature in the Groww app to centralize Auto-Debit Managment in India . <br><br><b>Technologies:</b> Figma, Canva.</p>
+                        <a href="https://drive.google.com/file/d/158-9rM5zBeWN-Lt2-VFWEq7t6A3RpOSa/view?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -138,7 +147,7 @@
         <div class="abc">
             <h1>Contact Me</h1>
             <p><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=saubhagyapandey27@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>saubhagyapandey27@gmail.com</p>
-            <p><a href=""><i class="fa-solid fa-phone"></i></a>0512-285269</p>
+            <p><a href="https://www.youtube.com/@saubhagyapandey27" target="_blank"><i class="fa-brands fa-youtube"></i></a><-- My Youtube Channel</p>
             <div>
                 <a href="https://www.linkedin.com/in/saubhagya-pandey-179a4a280/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/saubhagyapandey27" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -151,10 +160,19 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['ML Engineer', 'Data Scientist','Project Manager'],
+          strings: ['ML Engineer', 'Data Scientist','Product Manager'],
           typeSpeed: 100,
           loop: true,
         });
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
       </script>
 </body>
 </html>
