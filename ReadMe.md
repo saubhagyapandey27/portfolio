@@ -1,7 +1,11 @@
-In future i will change--
-1. more details of my skills when i hover on them
-2. better contact interface
-3. more details of my project when i hover on it
-4. better projects interface
-5. extra creative ideas to decorate my portfolio
-6. addition of other sections and pages
+**Hello there!**
+I am Saubhagya Pandey, an undergrad at IIT Kanpur. Welcome to my Porfolio Website,s Official Repo!!
+
+***URL***
+https://saubhagyapandey27.github.io/portfolio/
+
+**In future I have to improve--**
+1. More details of my Skills when i hover on them
+2. Better contact interface
+3. Better projects interface
+4. Extra creative and necessary Add-ons to decorate my portfolio
